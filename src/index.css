@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --primary-color: #f77f00;
+  --active-color: #e36414;
+  --hover-color: #ffb703;
+}
+
+article h3 {
+  color: var(--primary-color);
+  background: #f2f2f27a;
+  padding: 0.8rem;
+  border-radius: 10px;
+  max-width: fit-content;
+}
+
+article h4 {
+  color: rgb(121, 119, 119);
+}
+
+.job-btn {
+  display: flex;
+  margin: 1rem;
+  background: transparent;
+  border-color: transparent;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  letter-spacing: 1.5;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  line-height: 1;
+  color: var(--primary-color);
+}
+.job-btn:hover {
+  color: var(--hover-color);
+  box-shadow: 0 2px var(--hover-color);
+}
+
+.active-btn {
+  color: var(--active-color);
+  box-shadow: 0 2px var(--active-color);
+}
+
+.icon {
+  color: var(--primary-color);
+  font-size: 3rem;
+  padding-right: 1rem;
+}
+
+@media(max-width: 768px) {
+  .btn-secton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
