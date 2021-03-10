@@ -32,7 +32,7 @@ function App() {
   return (
     <section className='container'>
       <div>
-        <h1 className='text-center py-5'>Expierence</h1>
+        <h1 className='text-center py-5'>Experience</h1>
       </div>
 
       <div className='container'>
